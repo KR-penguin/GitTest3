@@ -1,5 +1,9 @@
 print("Welcome to Calculator!\n")
 
-a = 10
-b = 20
+
+answer = input("First Number :")
+a = int(answer)
+answer = input("Second Number :")
+b = int(answer)
+
 print("a + b = {0}".format(a))
